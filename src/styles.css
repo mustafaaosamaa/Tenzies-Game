@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 20px;
+    font-family: 'Karla', sans-serif;
+}
+
+h1, h4{
+    margin: 0;
+}
+
+h4{
+    margin-top: 12px;
+    color: #f55a5a;
+    font-weight: 600;
+}
+
+.white{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.petrol{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 420px;
+    height: 420px;
+    background-color: #0B2434;
+}
+
+.grey{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 360px;
+    height: 360px;
+    background-color: #F5F5F5;
+    border-radius: 8px;
+}
+
+.tenzies{
+    color: #2B283A;
+    text-align: center;
+}
+
+.description{
+    color: #4A4E74;
+    padding: 0 10px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.dice-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+.dices{
+    gap: 12px;
+    display: grid;
+    grid-template: auto auto / repeat(5, 1fr);
+}
+
+.dice{
+    width: 36px;
+    height: 36px;
+    background-color: white;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+}
+
+.clicked-dice{
+    width: 36px;
+    height: 36px;
+    background-color: #59E391;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+}
+
+.roll-button{
+    width: 120px;
+    height: 36px;
+    background-color: #5035FF;
+    border-radius: 6px;
+    font-size: 1.2rem;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.reset-button{
+    width: 118px;
+    height: 22px;
+    background-color: #0B2434;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
