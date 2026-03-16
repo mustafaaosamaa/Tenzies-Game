@@ -21,7 +21,7 @@ export default function App() {
         saveHighScore(rolls); // Save the high score to local storage
       }
     }
-  }, [dice , rolls])
+  }, [dice , rolls, highScore])
 
   function getSavedHighScore() {
     return parseInt(localStorage.getItem("highScore")) || null;
